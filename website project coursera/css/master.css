@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-color: #d7d7d7;
+    color: black;
+    margin: 0;
+}
+.header {
+    background-color: #F1F1F1;
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  
+  p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+img {
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+}
+#example1 {
+    background-image: url(milkyway.jpg), url(https://pixabay.com/photos/milky-way-starry-sky-night-sky-star-5295160/);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
